@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DemiurgeOfShambambukli</string>
+    <string name="button">СОТВОРИТЬ</string>
+    <string name="alive_cell_title">Живая</string>
+    <string name="alive_cell_comment">и шевелится!</string>
+    <string name="dead_cell_title">Мёртвая</string>
+    <string name="dead_cell_comment">или прикидывается</string>
+    <string name="life">Жизнь</string>
+    <string name="life_comment">Ку-ку!</string>
+</resources>
