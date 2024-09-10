@@ -43,6 +43,10 @@ dependencies {
     implementation ("androidx.recyclerview:recyclerview:1.3.2")
     implementation ("androidx.cardview:cardview:1.0.0")
 
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.4")
+    implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
