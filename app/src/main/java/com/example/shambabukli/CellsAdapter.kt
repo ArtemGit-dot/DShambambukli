@@ -8,7 +8,7 @@ import com.example.shambabukli.databinding.CellItemBinding
 
 class CellsAdapter: RecyclerView.Adapter<CellsAdapter.CellsHolder>() {
 
-    val cellList = ArrayList<Cells>()
+    var cellList = ArrayList<Cells>()
 
     class CellsHolder(item: View):RecyclerView.ViewHolder(item) {
 
@@ -34,15 +34,8 @@ class CellsAdapter: RecyclerView.Adapter<CellsAdapter.CellsHolder>() {
         holder.bind(cellList[position])
     }
 
-    //Функция для добавления жизни в список, и обновление списка:
-    fun addCells (cell: Cells){
-        cellList.add(cell)
-        notifyDataSetChanged()
-    }
-
-    //Функция для удаления жизни из списка, и обновление списка:
-    fun remoteCells(id : Int){
-        cellList.removeAt(id)
+    //Функциия для обновления списка:
+    fun update(){
         notifyDataSetChanged()
     }
 }
